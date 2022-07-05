@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hc1{
+    width: 48%;
+    padding-left: 50px;
+}
+.hc2{
+    width: 50%;
+
+
+}
+.hc2 img{
+    width: 100%;
+
+
+}
+.orderBtn{
+    background-image: linear-gradient(orange,red);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin:20px 0 ;
+    box-shadow: 2px 3px 10px gray;
+    color: white;
+    font-weight: 700;
+}
+.bodyContent{
+   
+    background-image: url("images/shapes/7.png");
+    background-repeat: repeat;
+    padding: 10px;
+}
+.bodyElement{
+    display: flex;
+    align-items:center ;
+    
+    
+}
+.bc1{
+    width: 40%;
+}
+.bc2{
+    width: 60%;
+
+
+}
+.bc2 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    padding-top: 100px;
+
+}
+.bodyContent1 .card img{
+    height: 200px;
+    width: 100%;
+}
+.bodyContent1 .card{
+    width: 40%;
+    box-shadow: 10px 10px 15px gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.foodElement{
+    display: flex;
+}
+.bodyelement2{
+    display: flex;
+    box-shadow: 10px 10px 15px gray;
+    margin: 50px;
+    padding: 40px;
+}
+.bc3{
+    width: 33%;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    padding: 50px;
+}
+.footer p{
+    color: white;
+    margin-top: 15px;
+}
